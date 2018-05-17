@@ -1,0 +1,17 @@
+Firebase command
+----------------
+
+npm config set proxy false
+firebase deploy --only functions
+
+ 
+Initial Setup:
+
+npm install -g firebase-tools
+firebase login
+firebase init functions
+
+Deploying functions alone:
+
+firebase deploy --only functions 
+
